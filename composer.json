@@ -1,0 +1,19 @@
+{
+    "name": "ucrm-plugins/fio-cz",
+    "description": "UCRM plugin for import cashonrails.com payments",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Cashonrails\\": [
+          "src/"
+        ]
+    }
+},
+"require": {
+    "php-di/php-di": "^7.0",
+    "katzgrau/klogger": "^1.2",
+    "ubnt/ucrm-plugin-sdk": "^0.9",
+      "doctrine/cache": "^2.2"
+    }
+  }
+  

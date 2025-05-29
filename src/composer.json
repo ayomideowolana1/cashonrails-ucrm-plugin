@@ -1,5 +1,0 @@
-{
-    "require": {
-        "ubnt/ucrm-plugin-sdk": "^0.9"
-    }
-}
